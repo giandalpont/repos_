@@ -1,0 +1,19 @@
+.mt30 {
+    margin-top: 30px;
+}
+.mb30 {
+    margin-top: 30px;
+}
+.ml15{
+    margin-left: 15px;
+}
+.card-body{
+    height: 190px;
+}
+.card-title {
+    color: #007bff;
+    cursor: pointer;
+}
+.card-title:hover {
+    color:#44607e;
+}

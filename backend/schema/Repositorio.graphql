@@ -1,0 +1,32 @@
+type Repositorio {
+    id: Int
+    id_repositorio: Int!
+    name: String!
+    full_name: String!
+    url: String!
+    description: String
+    language: String
+    forks: String
+    issues: String
+    stargazers: String
+    subscribers: String
+}
+
+input RepositorioInput {
+    id: Int
+    id_repositorio: Int!
+    name: String!
+    full_name: String!
+    url: String!
+    description: String
+    language: String
+    forks: Int
+    issues: String
+    stargazers: String
+    subscribers: String
+}
+
+input RepositorioFiltro {
+    id: Int
+    email: String
+}
